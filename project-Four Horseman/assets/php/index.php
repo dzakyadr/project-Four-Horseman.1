@@ -10,19 +10,19 @@
   <!-- Add Swiper JS -->
   <link
   rel="stylesheet"
-  href="../../assets/css/swiper-bundle-min.css"
+  href="/project-Four Horseman/assets/css/swiper-bundle-min.css"
   />
-  <script src="../../assets/js/swiper-bundle-min.js"></script>
+  <script src="/project-Four Horseman/assets/js/swiper-bundle-min.js"></script>
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="/project-Four Horseman/favicon.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="/project-Four Horseman/assets/css/style.css">
 
   <!-- 
     - google font link
@@ -56,22 +56,19 @@
             <a href="/project-Four Horseman/index.html" class="navbar-link">Home</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">About Us</a>
+            <a href="#destinasi" class="navbar-link">Destinations</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Popular</a>
+            <a href="#populer" class="navbar-link">Popular</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Destinations</a>
+            <a href="#about us" class="navbar-link">About Us</a>
           </li>
           <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-          <li>
-            <a href="#" class="navbar-link">Contact Us</a>
+            <a href="#berita" class="navbar-link">Berita</a>
           </li>
         </ul>
-        <a href="../../assets/php/login.php" class="btn btn-secondary">Login</a>
+        <a href="/project-Four Horseman/assets/html/login.php" class="btn btn-secondary">Login</a>
       </nav>
     </div>
   </header>
@@ -90,14 +87,13 @@
           <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
           <img src="./assets/images/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">
           <div class="hero-content">
-            <p class="section-subtitle">Explore Your Travel</p>
-            <h2 class="hero-title">Trusted Travel Agency</h2>
+            <p class="section-subtitle">Jelajahi Tujuan Anda</p>
+            <h2 class="hero-title">Partner Perjanalan Terbaikmu</h2>
             <p class="hero-text">
               I travel not to go anywhere, but to go. I travel for travel's sake the great affair is to move.
             </p>
             <div class="btn-group">
-              <a href="#" class="btn btn-primary">Contact Us</a>
-              <a href="#" class="btn btn-outline">Learn More</a>
+              <a href="#" class="btn btn-primary">Learn More</a>
             </div>
           </div>
           <figure class="hero-banner">
@@ -111,20 +107,20 @@
         - #DESTINATION
       -->
 
-      <section class="section destination">
+      <section class="section destination" id="destinasi">
         <div class="container">
-          <p class="section-subtitle">Destinations</p>
-          <h2 class="h2 section-title">Choose Your Place</h2>
+          <p class="section-subtitle">Destinasi</p>
+          <h2 class="h2 section-title">Pilih Tujuan Anda</h2>
           <ul class="destination-list">
             <li class="w-50">
               <a href="#" class="destination-card">
                 <figure class="card-banner">
                   <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Malé, Maldives" class="img-cover">
+                    alt="Nusa Penida, Bali" class="img-cover">
                 </figure>
                 <div class="card-content">
-                  <p class="card-subtitle">Malé</p>
-                  <h3 class="h3 card-title">Maldives</h3>
+                  <p class="card-subtitle">Pantai</p>
+                  <h3 class="h3 card-title">Nusa Penida</h3>
                 </div>
               </a>
             </li>
@@ -132,11 +128,11 @@
               <a href="#" class="destination-card">
                 <figure class="card-banner">
                   <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Bangkok, Thailand" class="img-cover">
+                    alt="Borobudur, Magelang" class="img-cover">
                 </figure>
                 <div class="card-content">
-                  <p class="card-subtitle">Bangkok</p>
-                  <h3 class="h3 card-title">Thailand</h3>
+                  <p class="card-subtitle">Candi</p>
+                  <h3 class="h3 card-title">Borobudur</h3>
                 </div>
               </a>
             </li>
@@ -144,11 +140,11 @@
               <a href="#" class="destination-card">
                 <figure class="card-banner">
                   <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kuala Lumpur, Malaysia" class="img-cover">
+                    alt="Bromo, Malang" class="img-cover">
                 </figure>
                 <div class="card-content">
-                  <p class="card-subtitle">Kuala Lumpur</p>
-                  <h3 class="h3 card-title">Malaysia</h3>
+                  <p class="card-subtitle">Gunung</p>
+                  <h3 class="h3 card-title">Bromo</h3>
                 </div>
               </a>
             </li>
@@ -156,11 +152,11 @@
               <a href="#" class="destination-card">
                 <figure class="card-banner">
                   <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kathmandu, Nepal" class="img-cover">
+                    alt="Museum Pendidikan, Suarabaya" class="img-cover">
                 </figure>
                 <div class="card-content">
-                  <p class="card-subtitle">Kathmandu</p>
-                  <h3 class="h3 card-title">Nepal</h3>
+                  <p class="card-subtitle">Museum</p>
+                  <h3 class="h3 card-title">Museum Pendidikan</h3>
                 </div>
               </a>
             </li>
@@ -176,6 +172,18 @@
                 </div>
               </a>
             </li>
+            <li>
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
+                    alt="Mie Aceh, Aceh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Kuliner</p>
+                  <h3 class="h3 card-title">Mie Aceh</h3>
+                </div>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -186,24 +194,23 @@
 
       <section class="section popular">
         <div class="container">
-          <p class="section-subtitle">Featured Tours</p>
-          <h2 class="h2 section-title">Most Popular Tours</h2>
+          <p class="section-subtitle">Rekomendasi</p>
+          <h2 class="h2 section-title">Tempat Paling Populer</h2>
           <ul class="popular-list">
             <li>
               <div class="popular-card">
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/popular-1.jpg" width="740" height="518" loading="lazy"
-                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                      alt="Labuan Bajo, Nusa Tenggara Timur" class="img-cover">
                   </a>
                   <span class="card-badge">
-                    <ion-icon name="time-outline"></ion-icon>
-                    <time datetime="P12D">12 Days</time>
+                    <ion-icon name="star-outline"></ion-icon>
                   </span>
                 </figure>
                 <div class="card-content">
                   <div class="card-wrapper">
-                    <div class="card-price">From $50.00</div>
+                    <div class="card-price">Mulai Dari Rp1.000.000</div>
                     <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
@@ -214,9 +221,10 @@
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                    <a href="#">Labuan Bajo adalah tempat yang sempurna untuk menikmati
+                        alam dan budaya Indonesia.</a>
                   </h3>
-                  <address class="card-location">Kuala Lumpur, Malaysia</address>
+                  <address class="card-location">Labuan Bajo, Nusa Tenggara Timur</address>
                 </div>
               </div>
             </li>
@@ -225,7 +233,7 @@
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/popular-2.jpg" width="740" height="518" loading="lazy"
-                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                      alt=" Pura Agung Besakih, Bali" class="img-cover">
                   </a>
                   <span class="card-badge">
                     <ion-icon name="time-outline"></ion-icon>
@@ -234,7 +242,7 @@
                 </figure>
                 <div class="card-content">
                   <div class="card-wrapper">
-                    <div class="card-price">From $50.00</div>
+                    <div class="card-price">Mulai Dari Rp30.000</div>
                     <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
@@ -245,9 +253,10 @@
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                    <a href="#">empat ini adalah tempat suci dengan pemandangan indah
+                        dan kisah sejarah yang kaya</a>
                   </h3>
-                  <address class="card-location">Kuala Lumpur, Malaysia</address>
+                  <address class="card-location">Pura Agung Besakih, Bali</address>
                 </div>
               </div>
             </li>
@@ -256,16 +265,15 @@
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/popular-3.jpg" width="740" height="518" loading="lazy"
-                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                      alt="Karimunjawa, Jepara" class="img-cover">
                   </a>
                   <span class="card-badge">
-                    <ion-icon name="time-outline"></ion-icon>
-                    <time datetime="P12D">12 Days</time>
+                    <ion-icon name="Star-outline"></ion-icon>
                   </span>
                 </figure>
                 <div class="card-content">
                   <div class="card-wrapper">
-                    <div class="card-price">From $50.00</div>
+                    <div class="card-price">Mulai Dari Rp50.000</div>
                     <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
@@ -276,9 +284,9 @@
                     </div>
                   </div>
                   <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                    <a href="#">Karimunjawa adalah surga tropis yang menawarkan keindahan alam, kehidupan bawah laut yang kaya, dan aktivitas wisata yang beragam.</a>
                   </h3>
-                  <address class="card-location">Kuala Lumpur, Malaysia</address>
+                  <address class="card-location">Karimunjawa, Jepara</address>
                 </div>
               </div>
             </li>
