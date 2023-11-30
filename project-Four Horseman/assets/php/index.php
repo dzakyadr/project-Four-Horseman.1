@@ -81,7 +81,7 @@
       -->
 
       <section class="section hero"
-        style="background-image: url('./assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
+        style="background-image: url('../../assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
         <div class="container">
           <img src="./assets/images/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
           <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
